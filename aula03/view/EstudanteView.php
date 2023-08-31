@@ -20,7 +20,8 @@
   </div>  
 <br>  
 <br>
-  
+  <a href="/aula03/?controller=Estudante&acao=salvar" class="btn btn-sucess">Cadastrar Estudante</a>
+  <br>
   <table class="table table-dark">
   <thead>
     <tr>

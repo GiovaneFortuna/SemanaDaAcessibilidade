@@ -5,7 +5,7 @@ $metodo = $_GET['acao'];
 
 $controller .= "Controller";
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/aula03/controller/EstudanteController.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/aula03/controller/' . $controller . '.php';
 
 $objeto = new $controller();
 $objeto->$metodo();

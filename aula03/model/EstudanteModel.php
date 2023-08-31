@@ -31,6 +31,6 @@ class EstudanteModel
         {
             $sql = "INSERT into estudantes (nome, idade) values ('$nome', '$idade')";
             $this->database->insert($sql);
-            echo"Estudante salvo com sucesso!";
+            
         }
 }
